@@ -227,13 +227,11 @@ hr:before,
 }
 .cardHover,
 .error404 #error-wrap .error-content,
-.layout > div:first-child:not(.recent-posts),
-#recent-posts > .recent-post-item,
 #aside-content .card-widget,
 .layout > .recent-posts .pagination > *:not(.space) {
   border-radius: 8px;
-  -webkit-box-shadow: var(--card-box-shadow);
-  box-shadow: var(--card-box-shadow);
+  -webkit-box-shadow: 0 3px 8px 6px rgba(17,147,205,0.15);
+  box-shadow: 0 3px 8px 6px rgba(17,147,205,0.15);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -242,12 +240,29 @@ hr:before,
 }
 .cardHover:hover,
 .error404 #error-wrap .error-content:hover,
-.layout > div:first-child:not(.recent-posts):hover,
-#recent-posts > .recent-post-item:hover,
 #aside-content .card-widget:hover,
 .layout > .recent-posts .pagination > *:not(.space):hover {
-  -webkit-box-shadow: var(--card-hover-box-shadow);
-  box-shadow: var(--card-hover-box-shadow);
+  -webkit-box-shadow: 0 3px 8px 6px rgba(21,103,185,0.23);
+  box-shadow: 0 3px 8px 6px rgba(21,103,185,0.23);
+}
+.cardHover2,
+.layout > div:first-child:not(.recent-posts),
+#recent-posts > .recent-post-item {
+  border-radius: 8px;
+  background: var(--card-bg);
+  -webkit-box-shadow: 0 3px 8px 6px rgba(17,147,205,0.15);
+  box-shadow: 0 3px 8px 6px rgba(17,147,205,0.15);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.cardHover2:hover,
+.layout > div:first-child:not(.recent-posts):hover,
+#recent-posts > .recent-post-item:hover {
+  -webkit-box-shadow: 0 3px 8px 6px rgba(21,103,185,0.23);
+  box-shadow: 0 3px 8px 6px rgba(21,103,185,0.23);
 }
 .imgHover,
 .error404 #error-wrap .error-content .error-img img,
