@@ -1,4 +1,4 @@
-/*设置字体*/
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script>/*设置字体*/
 @font-face {
     font-family:'Mono';
     src:url('/fonts/ttf/JetBrainsMono-Bold.ttf'); /* 修改成自己的字体 */
